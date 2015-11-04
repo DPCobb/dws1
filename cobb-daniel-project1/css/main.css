@@ -1,8 +1,12 @@
 body {
+	width: 95%;
+	margin: 5px auto;
 	background-color: #6AB4D7;
 	color: #0A0A0A;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
+
+/* Header Styling */
 
 h1 {
 	font-family: 'Bangers', cursive;
@@ -47,6 +51,16 @@ header a:active{
 	text-decoration: underline;
 }
 
+/* Content Styling */
+
+article {
+	margin-top: 5%;
+	background-color: #EAEBED;
+	padding: 2%;
+	border: 5px solid rgb(199, 0, 0);
+	box-shadow: 5px 5px 1px #0A0A0A;
+}
+ 
 p, figcaption, li {
 	font-family: Verdana, Geneva, sans-serif;
 }
