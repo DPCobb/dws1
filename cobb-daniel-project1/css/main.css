@@ -114,6 +114,10 @@ figcaption {
 	display:block;
 }
 
+#images img:hover{
+	border: 5px solid #6AB4D7;
+}
+
 .subtitle {
 	font-style: italic;
 }
