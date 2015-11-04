@@ -53,14 +53,33 @@ header a:active{
 
 /* Content Styling */
 
-article {
-	margin-top: 5%;
+#container {
+	margin: 5% auto 0 auto;
 	background-color: #EAEBED;
 	padding: 2%;
 	border: 5px solid rgb(199, 0, 0);
 	box-shadow: 5px 5px 1px #0A0A0A;
+	width:95%;
 }
- 
+
+article {
+	width:70%;
+	margin-left:2%;
+}
+
+aside {
+	width:25%;
+	vertical-align:top;
+	background-color: rgba(148, 148, 148,.5);
+	box-shadow: 5px 5px 1px #0A0A0A;
+	text-align:center;
+}
+
+article, aside {
+	padding:5px;
+	display:inline-block;
+}
+	
 p, figcaption, li {
 	font-family: Verdana, Geneva, sans-serif;
 }
