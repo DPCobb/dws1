@@ -16,6 +16,7 @@ header {
 	padding: 10px 10px 20px 10px;
 	border-radius: 50%;
 	box-shadow: 0px 10px 5px 2px #0A0A0A;
+	border: 10px solid #EAEBED;
 }
 
 header ul {
@@ -27,6 +28,23 @@ header ul {
 header li {
 	display:inline-block;	
 	padding-right: 25px;
+}
+
+header a:link {
+	text-decoration: none;
+	color: #0A0A0A;
+}
+
+header a:hover {
+	font-weight:700;
+}
+
+header a:visited {
+	color: #949494;
+}
+
+header a:active{
+	text-decoration: underline;
 }
 
 p, figcaption, li {
