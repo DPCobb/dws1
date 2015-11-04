@@ -69,7 +69,7 @@ article {
 	margin-left:2%;
 }
 
-article h2,h3 {
+article h2, article h3 {
 	background-color: rgba(199, 0, 0, 0.2);
 	padding-left:10px;
 }
