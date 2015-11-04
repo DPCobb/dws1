@@ -13,6 +13,7 @@ h1 {
 	font-size: 300%;
 	line-height: 150%;
 	text-align: center;
+	text-shadow: 2px 2px #6AB4D7;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 	border: 10px solid #EAEBED;
 }
 
-header ul {
+header ul, aside ol {          			/* Header Nav style AND Aside Nav Style*/
 	list-style: none;
 	text-align: center;
 
@@ -33,13 +34,13 @@ header li {
 	display:inline-block;	
 	padding-right: 25px;
 }
-
-header a:link {
+										
+header a:link, aside a:link {			/* Header and Aside Nav Styles */
 	text-decoration: none;
 	color: #0A0A0A;
 }
 
-header a:hover {
+header a:hover, aside a:hover {
 	font-weight:700;
 }
 
@@ -47,7 +48,7 @@ header a:visited {
 	color: #949494;
 }
 
-header a:active{
+header a:active, aside a:active{
 	text-decoration: underline;
 }
 
@@ -79,7 +80,18 @@ article, aside {
 	padding:5px;
 	display:inline-block;
 }
+
+aside ol {
+	padding:0;
+}
+
+aside a:visited {
+	color: rgba(199, 0, 0, 0.5);
+}
 	
 p, figcaption, li {
 	font-family: Verdana, Geneva, sans-serif;
+}
+.subtitle {
+	font-style: italic;
 }
