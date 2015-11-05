@@ -1,0 +1,138 @@
+body {
+	width: 95%;
+	margin: 5px auto;
+	background-color: #6AB4D7;
+	color: #0A0A0A;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Header Styling */
+
+h1 {
+	font-family: 'Bangers', cursive;
+	font-size: 300%;
+	line-height: 150%;
+	text-align: center;
+	text-shadow: 2px 2px #6AB4D7;
+}
+
+header {
+	background-color: rgba(199, 0, 0, 0.5);
+	padding: 10px 10px 20px;
+	border-radius: 50%;
+	box-shadow: 0 10px 5px 2px #0A0A0A;
+	border: 10px solid #EAEBED;
+}
+
+header ul, aside ol {          			/* Header Nav style AND Aside Nav Style*/
+	list-style-type: none;
+	text-align: center;
+
+}
+
+header li {
+	display:inline-block;	
+	padding-right: 25px;
+}
+										
+header a:link, aside a:link, footer a:link {			/* Header, Footer, and Aside Nav Styles */
+	text-decoration: none;
+	color: #0A0A0A;
+}
+
+header a:visited, footer a:visited {			/* Aside a:visited below under Content Styles */
+	color: #949494;
+}
+
+header a:hover, aside a:hover, footer a:hover {
+	font-weight:700;
+}
+
+header a:active, aside a:active, footer a:active {
+	text-decoration: underline;
+}
+
+/* Content Styling */
+
+#container {
+	margin: 5% auto 0;
+	background-color: #EAEBED;
+	padding: 2%;
+	border: 5px solid rgb(199, 0, 0);
+	box-shadow: 5px 5px 1px #0A0A0A;
+	width:95%;
+	border-radius:10px;
+}
+
+article {
+	width:70%;
+	margin-left:2%;
+}
+
+article h2, article h3 {
+	background-color: rgba(199, 0, 0, 0.2);
+	padding-left:10px;
+}
+
+aside {
+	width:25%;
+	vertical-align:top;
+	background-color: rgba(148, 148, 148,.3);
+	box-shadow: 5px 5px 2px #0A0A0A;
+	text-align:center;
+	border-radius:10%;
+}
+
+article, aside, figure {
+	padding:5px;
+	display:inline-block;
+}
+
+aside ol {
+	padding:0;
+}
+
+aside a:visited {
+	color: rgba(199, 0, 0, 0.5);
+}
+	
+p, figcaption, li {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+figcaption {
+	font-size: x-small;
+}	
+
+#images img {
+	border-radius:10px;
+	box-shadow: 5px 5px 2px rgba(148, 148, 148,.5);
+	border: 5px solid #fff;
+}
+
+#images a {
+	display:block;
+}
+
+#images img:hover {
+	border: 5px solid #6AB4D7;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+/* Footer Style */
+footer {
+	width:100%;
+	height:100%;
+	margin: 10px auto;
+	text-align:center;
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 20px;
+	background-color: rgba(199, 0, 0, 0.5);
+}
+
+footer p {
+	display:inline-block;
+}
