@@ -40,12 +40,12 @@ header a:link, aside a:link, footer a:link {			/* Header, Footer, and Aside Nav 
 	color: #0A0A0A;
 }
 
-header a:hover, aside a:hover, footer a:hover {
-	font-weight:700;
+header a:visited, footer a:visited {			/* Aside a:visited below under Content Styles */
+	color: #949494;
 }
 
-header a:visited, footer a:visited {
-	color: #949494;
+header a:hover, aside a:hover, footer a:hover {
+	font-weight:700;
 }
 
 header a:active, aside a:active, footer a:active {
