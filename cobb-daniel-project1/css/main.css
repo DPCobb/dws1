@@ -18,9 +18,9 @@ h1 {
 
 header {
 	background-color: rgba(199, 0, 0, 0.5);
-	padding: 10px 10px 20px 10px;
+	padding: 10px 10px 20px;
 	border-radius: 50%;
-	box-shadow: 0px 10px 5px 2px #0A0A0A;
+	box-shadow: 0 10px 5px 2px #0A0A0A;
 	border: 10px solid #EAEBED;
 }
 
@@ -55,7 +55,7 @@ header a:active, aside a:active, footer a:active {
 /* Content Styling */
 
 #container {
-	margin: 5% auto 0 auto;
+	margin: 5% auto 0;
 	background-color: #EAEBED;
 	padding: 2%;
 	border: 5px solid rgb(199, 0, 0);
@@ -114,11 +114,11 @@ figcaption {
 	display:block;
 }
 
-#images img:hover{
+#images img:hover {
 	border: 5px solid #6AB4D7;
 }
 
-#subtitle {
+.subtitle {
 	font-style: italic;
 }
 
