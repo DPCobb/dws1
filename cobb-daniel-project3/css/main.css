@@ -118,15 +118,19 @@ figure {
 }
 
 #column-left {
-	width:28%;
+	width:25%;
 	float:left;
 	display:inline-block;
+	margin:1%;
+	padding:1%;
 }
 
 #column-right {
-	width:70%;
+	width:67%;
 	float:right;
 	display:inline-block;
+	margin:1%;
+	padding:1%;
 }
 
 #images img {
