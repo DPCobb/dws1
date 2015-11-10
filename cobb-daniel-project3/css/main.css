@@ -1,6 +1,6 @@
 body {
 	width: 95%;
-	margin: 5px auto;
+	margin: 2% auto;
 	background: url(../images/tutorial.gif) repeat top center #6AB4D7;
 	color: #0A0A0A;
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -10,7 +10,7 @@ body {
 
 h1 {
 	font-family: 'Bangers', cursive;
-	font-size: 300%;
+	font-size: 3em;
 	line-height: 150%;
 	text-align: center;
 	text-shadow: 2px 2px #6AB4D7;
@@ -34,7 +34,7 @@ header ul, aside ol {          			/* Header Nav style AND Aside Nav Style*/
 
 header li {
 	display:inline-block;	
-	padding-right: 25px;
+	padding-right: 2.5%;
 }
 										
 header a:link, aside a:link, footer a:link {			/* Header, Footer, and Aside Nav Styles */
@@ -81,7 +81,7 @@ article {
 
 article h2, article h3 {
 	background-color: rgba(199, 0, 0, 0.2);
-	padding-left:10px;
+	padding-left:1%;
 	
 }
 
@@ -94,7 +94,7 @@ aside {
 }
 
 article, aside {
-	padding:5px;
+	padding:.5%;
 	display:inline-block;
 }
 
@@ -111,7 +111,7 @@ p, figcaption, li {
 }
 
 figcaption {
-	font-size: x-small;
+	font-size: 0.625em;
 }
 
 figure {
@@ -119,7 +119,7 @@ figure {
 }
 
 #column-left {
-	width:25%;
+	width:28%;
 	float:left;
 	display:inline-block;
 }
@@ -164,7 +164,7 @@ footer {
 	clear:both;
 	width:100%;
 	height:100%;
-	margin: 10px auto;
+	margin: 1% auto;
 	text-align:center;
 	border: 5px solid rgb(255, 255, 255);
 	border-radius: 20px;
