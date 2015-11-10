@@ -191,5 +191,8 @@ footer p {
 		width:95%;
 		margin:auto;
 	}
+	article h2, article h3 {
+		text-shadow: 0 0 2px #fff;
+	}
 	
 }
