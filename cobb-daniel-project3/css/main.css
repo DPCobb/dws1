@@ -151,12 +151,12 @@ figure {
 
 #history h2 {
 	background: url(../images/helmet.png) right no-repeat rgba(199, 0, 0, 0.2);
-	padding:2%;
+	padding:2% 20% 2% 1%;
 }
 
 #game h2 {
 	background: url(../images/skate.png) right no-repeat rgba(199, 0, 0, 0.2);
-	padding:2%;
+	padding:2% 20% 2% 1%;
 }
 
 /* Footer Style */
