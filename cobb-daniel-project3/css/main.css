@@ -64,11 +64,18 @@ header a:active, aside a:active, footer a:active {
 	box-shadow: 5px 5px 1px #0A0A0A;
 	width:95%;
 	border-radius:10px;
-	clear:both;
+}
+
+#container:after{ 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 article {
-	width:68%;
+	width:90%;
 	margin-left:4%;
 }
 
@@ -108,7 +115,7 @@ figcaption {
 }
 
 figure {
-	margin-left:0;
+	margin:5% auto;
 }
 
 #column-left {
@@ -126,6 +133,8 @@ figure {
 	border-radius:10px;
 	box-shadow: 5px 5px 2px rgba(148, 148, 148,.5);
 	border: 5px solid #fff;
+	width: 100%;
+    height: auto;
 }
 
 #images a {
@@ -164,4 +173,23 @@ footer {
 
 footer p {
 	display:inline-block;
+}
+
+/* Media Query for under 500px screen*/
+
+@media only screen and (max-width: 500px){
+	#column-left, #column-right, footer{
+		width:95%;
+	}
+	header {
+		border-radius:25%;
+	}
+	#container {
+		width:90%;
+	}
+	article {
+		width:95%;
+		margin:auto;
+	}
+	
 }
