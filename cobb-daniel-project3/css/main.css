@@ -66,7 +66,7 @@ header a:active, aside a:active, footer a:active {
 	border-radius:10px;
 }
 
-#container:after{ 
+#container:after { 
    content: "."; 
    visibility: hidden; 
    display: block; 
@@ -81,8 +81,7 @@ article {
 
 article h2, article h3 {
 	background-color: rgba(199, 0, 0, 0.2);
-	padding-left:1%;
-	
+	padding-left:1%;	
 }
 
 aside {
@@ -123,6 +122,7 @@ figure {
 	float:left;
 	display:inline-block;
 }
+
 #column-right {
 	width:70%;
 	float:right;
@@ -160,6 +160,7 @@ figure {
 }
 
 /* Footer Style */
+
 footer {
 	clear:both;
 	width:100%;
