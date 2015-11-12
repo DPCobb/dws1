@@ -178,7 +178,7 @@ footer p {
 	display:inline-block;
 }
 
-/* Media Query for under 500px screen*/
+/* Media Query for under 500px screen */
 
 @media only screen and (max-width: 500px){
 	#column-left, #column-right, footer{
