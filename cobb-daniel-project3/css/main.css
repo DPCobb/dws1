@@ -120,7 +120,6 @@ figure {
 #column-left {
 	width:25%;
 	float:left;
-	display:inline-block;
 	margin:1%;
 	padding:1%;
 }
@@ -128,7 +127,6 @@ figure {
 #column-right {
 	width:67%;
 	float:right;
-	display:inline-block;
 	margin:1%;
 	padding:1%;
 }
