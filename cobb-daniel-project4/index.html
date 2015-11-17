@@ -76,16 +76,25 @@
 					<fieldset id="form" disabled>
 						<legend>Subscribe!</legend>
 						<p id="welcome">Welcome!</p>
-						<label for="email" class="label">Email: </label><input type="email" id="email" placeholder="Please enter your email" required="required" title="Please enter a valid email">
-						<label for="name" class="label">Name: </label><input type="text" id="name" placeholder="Please enter your name" required="required" title="Please enter your name!">
+						<label for="email" class="label">Email: </label>
+						<input type="email" id="email" placeholder="Please enter your email" required="required" title="Please enter a valid email">
+						<label for="uname" class="label">Name: </label>
+						<input type="text" id="uname" placeholder="Please enter your name" required="required" title="Please enter your name!">
 						<label for="status" class="label">Are you a...</label>
-							<select required="required" id="status">
-								<option>Player</option>
-								<option>Coach</option>
-								<option>Fan</option>
-								<option>New to hockey</option>
+							<select id="status">
+								<option value="player">Player</option>
+								<option value="coach">Coach</option>
+								<option value="fan">Fan</option>
+								<option value="new">New to hockey</option>
 							</select>
-						
+						<br>
+						<label class="label">Gender: </label>
+						<div id="gender">
+							<input type="radio" name="male" id="male" value="male"/> 
+							<label for="male" class="radio-label">Male</label>
+							<input type="radio" name="female" id="female" value="female"/> 
+							<label for="female" class="radio-label">Female</label>
+						</div>
 					</fieldset>
 				</form>
 			</div>

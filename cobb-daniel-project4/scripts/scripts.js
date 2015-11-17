@@ -14,7 +14,7 @@ function formOn(){
 		document.getElementById('userlabel').hidden = true;
 		alert.hidden = true;
 		welcomeMsg.innerHTML = "Hi, " + user + " thanks for stopping by! Sign up for our newsletter below!";
-		document.getElementById('name').value = user;
+		document.getElementById('uname').value = user;
 	}
 	else {
 		alert.style.visibility = "visible";
