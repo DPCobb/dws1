@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<script src="scripts/scripts.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 		<title>Ice Hockey</title>
 	</head>
@@ -67,6 +68,26 @@
 					</figure>
 					<a href="#top">Top</a>
 				</section>
+				<form action="http://www.example.com/submit.php" method="post">
+					<label id="userlabel" for="username" class="label">What is your name?</label>
+					<input type="text" id ="username" name="user" required="required" placeholder="Please enter your name" onchange="formOn()" size="20" title="Please enter your name">
+					<div id="alert">
+					</div>
+					<fieldset id="form" disabled>
+						<legend>Subscribe!</legend>
+						<p id="welcome">Welcome!</p>
+						<label for="email" class="label">Email: </label><input type="email" id="email" placeholder="Please enter your email" required="required" title="Please enter a valid email">
+						<label for="name" class="label">Name: </label><input type="text" id="name" placeholder="Please enter your name" required="required" title="Please enter your name!">
+						<label for="status" class="label">Are you a...</label>
+							<select required="required" id="status">
+								<option>Player</option>
+								<option>Coach</option>
+								<option>Fan</option>
+								<option>New to hockey</option>
+							</select>
+						
+					</fieldset>
+				</form>
 			</div>
 			<div id="column-right"> <!-- Column-Right contains <article> -->
 				<article> <!-- Start main article content -->

@@ -161,6 +161,42 @@ figure {
 	padding:2% 20% 2% 1%;
 }
 
+#form {
+	margin:2%;
+	visibility:hidden;
+	width:100%;
+}
+
+form {
+	width:100%;
+}
+
+.label {
+	float:left;
+	text-align:right;
+	width:45%;
+	margin-right: 5%;
+	margin-top: 2%;
+	font-size:.75em;
+}
+
+#form .label {
+	width:25%;
+	float:left;
+	text-align:right;
+}
+
+fieldset {
+	width:100%;
+	height:auto;
+}
+
+#alert {
+	visibility:hidden;
+	border:1px solid #000;
+	background:rgba(199, 0, 0, 0.5);
+}
+
 /* Footer Style */
 
 footer {
