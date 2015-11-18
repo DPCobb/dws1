@@ -161,6 +161,8 @@ figure {
 	padding:2% 20% 2% 1%;
 }
 
+/* Form Styling */
+
 #form {
 	margin:2%;
 	visibility:hidden;
@@ -178,11 +180,6 @@ legend, #welcome {
 
 #form:hover {
 	background-color:rgba(148, 148, 148,.8);
-}
-
-input:focus, textarea:focus {
-	border:1px solid #000;
-	background: #ccf2ff;
 }
 
 form {
@@ -259,6 +256,13 @@ textarea {
 .text:hover {
 	box-shadow: 2px 2px 5px #000;
 }
+
+.text:focus {
+	border:1px solid #000;
+	background: #ccf2ff;
+}
+
+/* Table Style */
 
 table {
 	clear:both;

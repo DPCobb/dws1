@@ -68,6 +68,7 @@
 					</figure>
 					<a href="#top">Top</a>
 				</section>
+				<!--Start of subscription form-->
 				<form action="http://www.example.com/submit.php" method="post">
 					<label id="userlabel" for="username" class="label">What is your name?</label>
 					<input type="text" id ="username" class="text" name="user" required="required" placeholder="Please enter your name" onchange="formOn()" size="20" title="Please enter your name">
@@ -77,11 +78,11 @@
 						<legend>Subscribe!</legend>
 						<p id="welcome">Welcome!</p>
 						<label for="email" class="label">Email: </label>
-						<input type="email" id="email" class="text" placeholder="Please enter your email" required="required" title="Please enter a valid email">
+						<input type="email" id="email" name="email" class="text" placeholder="Please enter your email" required="required" title="Please enter a valid email">
 						<label for="uname" class="label">Name: </label>
 						<input type="text" id="uname" class="text" placeholder="Please enter your name" required="required" title="Please enter your name!">
 						<label for="status" class="label">Are you a...</label>
-							<select id="status">
+							<select id="status" name="status">
 								<option value="player">Player</option>
 								<option value="coach">Coach</option>
 								<option value="fan">Fan</option>
@@ -93,11 +94,12 @@
 						<input type="radio" name="gender" id="female" value="female"/> 
 						<label for="female" class="radio-label">Female</label>
 						<label for="info" class="label">Tell us about yourself:</label>
-						<textarea id="info" class="text" cols="25" rows="5"></textarea>
+						<textarea id="info" name="info" class="text" cols="25" rows="5"></textarea>
 						<br>
 						<input type="submit" id="sub" value="Subscribe!"/>
 					</fieldset>
 				</form>
+				<!--Stanley Cup Winners table-->
 				<table>
 					<caption>Recent Stanley Cup Winners</caption>
 					<thead>
@@ -168,6 +170,7 @@
 						</tr>
 					</tbody>
 				</table>
+				<a href="https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"> Source </a>
 					
 			</div>
 			<div id="column-right"> <!-- Column-Right contains <article> -->
