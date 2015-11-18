@@ -252,6 +252,8 @@ textarea {
 
 .text {
 	border:none;
+	border-radius:5px;
+	padding:1%;
 }
 
 .text:hover {
@@ -261,6 +263,10 @@ textarea {
 .text:focus {
 	border:1px solid #000;
 	background: #ccf2ff;
+}
+
+#radio {
+	margin-top:5%;
 }
 
 /* Table Style */
