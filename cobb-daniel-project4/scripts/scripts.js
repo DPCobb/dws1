@@ -7,7 +7,7 @@ function formOn(){
 	var welcomeMsg = document.getElementById('welcome');
 	var user = document.getElementById('username').value;
 	var alert = document.getElementById('alert');
-	if (/[a-z, A-Z]/.test(user)){
+	if (/^[a-z, A-Z]+$/.test(user)){
 		document.getElementById('form').style.visibility = "visible";
 		document.getElementById('form').disabled = false;
 		document.getElementById('username').hidden = true;

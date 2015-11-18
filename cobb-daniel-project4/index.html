@@ -70,16 +70,16 @@
 				</section>
 				<form action="http://www.example.com/submit.php" method="post">
 					<label id="userlabel" for="username" class="label">What is your name?</label>
-					<input type="text" id ="username" name="user" required="required" placeholder="Please enter your name" onchange="formOn()" size="20" title="Please enter your name">
+					<input type="text" id ="username" class="text" name="user" required="required" placeholder="Please enter your name" onchange="formOn()" size="20" title="Please enter your name">
 					<div id="alert">
 					</div>
 					<fieldset id="form" disabled>
 						<legend>Subscribe!</legend>
 						<p id="welcome">Welcome!</p>
 						<label for="email" class="label">Email: </label>
-						<input type="email" id="email" placeholder="Please enter your email" required="required" title="Please enter a valid email">
+						<input type="email" id="email" class="text" placeholder="Please enter your email" required="required" title="Please enter a valid email">
 						<label for="uname" class="label">Name: </label>
-						<input type="text" id="uname" placeholder="Please enter your name" required="required" title="Please enter your name!">
+						<input type="text" id="uname" class="text" placeholder="Please enter your name" required="required" title="Please enter your name!">
 						<label for="status" class="label">Are you a...</label>
 							<select id="status">
 								<option value="player">Player</option>
@@ -87,16 +87,88 @@
 								<option value="fan">Fan</option>
 								<option value="new">New to hockey</option>
 							</select>
+						<label class="label">Gender: </label><br>
+						<input type="radio" name="gender" id="male" value="male"/> 
+						<label for="male" class="radio-label">Male</label>
+						<input type="radio" name="gender" id="female" value="female"/> 
+						<label for="female" class="radio-label">Female</label>
+						<label for="info" class="label">Tell us about yourself:</label>
+						<textarea id="info" class="text" cols="25" rows="5"></textarea>
 						<br>
-						<label class="label">Gender: </label>
-						<div id="gender">
-							<input type="radio" name="gender" id="male" value="male"/> 
-							<label for="male" class="radio-label">Male</label>
-							<input type="radio" name="gender" id="female" value="female"/> 
-							<label for="female" class="radio-label">Female</label>
-						</div>
+						<input type="submit" id="sub" value="Subscribe!"/>
 					</fieldset>
 				</form>
+				<table>
+					<caption>Recent Stanley Cup Winners</caption>
+					<thead>
+						<tr>
+							<th scope="col">Year</th>
+							<th scope="col">Team</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2001</td>
+							<td>Avalanche</td>
+						</tr>
+						<tr class="even-row">
+							<td>2002</td>
+							<td>Red Wings</td>
+						</tr>
+						<tr>
+							<td>2003</td>
+							<td>Devils</td>
+						</tr>
+						<tr class="even-row">
+							<td>2004</td>
+							<td>Lightning</td>
+						</tr>
+						<tr>
+							<td colspan="2">No Season 2005, NHL Lockout</td>
+						</tr>
+						<tr class="even-row">
+							<td>2006</td>
+							<td>Hurricanes</td>
+						</tr>
+						<tr>
+							<td>2007</td>
+							<td>Ducks</td>
+						</tr>
+						<tr class="even-row">
+							<td>2008</td>
+							<td>Red Wings</td>
+						</tr>
+						<tr>
+							<td>2009</td>
+							<td>Penguins</td>
+						</tr>
+						<tr class="even-row">
+							<td>2010</td>
+							<td>Blackhawks</td>
+						</tr>
+						<tr>
+							<td>2011</td>
+							<td>Bruins</td>
+						</tr>
+						<tr class="even-row">
+							<td>2012</td>
+							<td>Kings</td>
+						</tr>
+						<tr>
+							<td>2013</td>
+							<td>Blackhawks</td>
+						</tr>
+						<tr class="even-row">
+							<td>2014</td>
+							<td>Kings</td>
+						</tr>
+						<tr>
+							<td>2015</td>
+							<td>Blackhawks</td>
+						</tr>
+					</tbody>
+				</table>
+					
 			</div>
 			<div id="column-right"> <!-- Column-Right contains <article> -->
 				<article> <!-- Start main article content -->
